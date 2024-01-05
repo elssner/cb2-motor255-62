@@ -13,6 +13,11 @@ input.onButtonEvent(Button.B, input.buttonEventValue(ButtonEvent.LongClick), fun
     radio.setGroup(224)
     basic.showString("B")
 })
+function Kommentar () {
+    calli2bot.comment("Erweiterungen laden:")
+    calli2bot.comment("radio")
+    calli2bot.comment("calliope-net/calli2bot")
+}
 let Calli2bot: calli2bot.Calli2bot = null
 Calli2bot = calli2bot.beimStart(calli2bot.calli2bot_eADDR(calli2bot.eADDR.CB2_x22))
 radio.setFrequencyBand(1)
