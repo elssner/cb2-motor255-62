@@ -13,7 +13,9 @@ input.onButtonEvent(Button.B, input.buttonEventValue(ButtonEvent.LongClick), fun
     radio.setGroup(224)
     basic.showString("B")
 })
-function Kommentar () {
+function _62calli2botradio () {
+    calli2bot.comment("makecode.calliope.cc")
+    calli2bot.comment("Hardware: v2")
     calli2bot.comment("Erweiterungen laden:")
     calli2bot.comment("radio")
     calli2bot.comment("calliope-net/calli2bot")
