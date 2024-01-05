@@ -1,6 +1,6 @@
 {
     "name": "62-calli2bot-radio",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "",
     "dependencies": {
         "core": "*",
