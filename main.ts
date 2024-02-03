@@ -7,7 +7,7 @@ input.onButtonEvent(Button.AB, input.buttonEventValue(ButtonEvent.LongClick), fu
     basic.showString("C")
 })
 radio.onReceivedNumber(function (receivedNumber) {
-    Calli2bot.fahreJoystick(receivedNumber, true, true, 20)
+    Calli2bot.fahreJoystick(receivedNumber, true, false, 20)
 })
 input.onButtonEvent(Button.B, input.buttonEventValue(ButtonEvent.LongClick), function () {
     radio.setGroup(224)
