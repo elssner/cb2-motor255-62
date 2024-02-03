@@ -7,13 +7,14 @@ input.onButtonEvent(Button.AB, input.buttonEventValue(ButtonEvent.LongClick), fu
     basic.showString("C")
 })
 radio.onReceivedNumber(function (receivedNumber) {
-    Calli2bot.fahreJoystick(receivedNumber, true, false, 20)
+    Calli2bot.fahreJoystick(receivedNumber, true, true, 20)
 })
 input.onButtonEvent(Button.B, input.buttonEventValue(ButtonEvent.LongClick), function () {
     radio.setGroup(224)
     basic.showString("B")
 })
-function _62calli2botradio () {
+function GitHub () {
+    calli2bot.comment("elssner/cb2-motor255-62")
     calli2bot.comment("makecode.calliope.cc")
     calli2bot.comment("Hardware: v2")
     calli2bot.comment("Erweiterungen laden:")
