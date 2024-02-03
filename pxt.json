@@ -1,6 +1,6 @@
 {
     "name": "cb2-motor255-62",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "",
     "dependencies": {
         "core": "*",
